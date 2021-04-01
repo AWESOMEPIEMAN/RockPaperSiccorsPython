@@ -17,7 +17,6 @@ def human_choice():
         human_choice()
     return hchoice
 
-
 def comp_choice():
     comp_choice = random.randint(1, 3)
     if comp_choice == 1:
